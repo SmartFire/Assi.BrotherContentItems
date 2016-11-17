@@ -1,7 +1,7 @@
 ﻿Name: Assi.BrotherContentItems
 AntiForgery: enabled
 Author: Rami Assi
-Website: http://orchardproject.net
+Website: https://github.com/ramiassi/Assi.BrotherContentItems
 Version: 1.0
 OrchardVersion: 1.0
 Description: This module provides Brothers content part to display the brothers with the same container.
