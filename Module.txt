@@ -1,0 +1,10 @@
+﻿Name: Assi.BrotherContentItems
+AntiForgery: enabled
+Author: Rami Assi
+Website: http://orchardproject.net
+Version: 1.0
+OrchardVersion: 1.0
+Description: This module provides Brothers content part to display the brothers with the same container.
+Features:
+    Assi.BrotherContentItems:
+        Description: After you attach the Brothers part to your content type, the other content items which have the same container as the current item will be displayed.

@@ -1,0 +1,22 @@
+﻿@******** This is an example of a customized view ***************
+@{
+    var items = Model.List.Items;
+}
+
+@if(items != null && items.Count > 0) {
+<div class="widget">
+    <ul class="nav nav-pills nav-stacked">
+        @foreach(var item in items) {
+            Orchard.ContentManagement.ContentItem contentItem = item.ContentItem;
+            if(contentItem.Id == Model.ContentItem.Id) {
+                <li class="active">@Html.ItemDisplayLink(contentItem)</li>
+            }else {
+                <li>@Html.ItemDisplayLink(contentItem)</li>
+            }
+        }
+    </ul>
+</div>
+}
+*@
+
+@Display(Model.List)
